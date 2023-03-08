@@ -150,7 +150,7 @@ function Cart() {
     }
     //  var amount = paypal_payment;
     var options = {
-      key: "rzp_test_fYtFrx227DT8xU", // Enter the Key ID generated from the Dashboard
+      key: "rzp_live_Sz1UXNRoPKuW6u", // Enter the Key ID generated from the Dashboard
       amount: Number(cart.plan_price * 100 * 80),
       currency: "INR",
       description: "Acme Corp",

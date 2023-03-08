@@ -153,12 +153,8 @@ function Cart() {
       key: "rzp_live_Sz1UXNRoPKuW6u", // Enter the Key ID generated from the Dashboard
       amount: Number(cart.plan_price * 100 * 80),
       currency: "INR",
-      description: "Acme Corp",
+      description: "Dauqu Panel",
       image: "https://avatars.githubusercontent.com/u/95732637?v=4",
-      prefill: {
-        email: "gaurav.kumar@example.com",
-        contact: +919900000000,
-      },
 
       handler: function (response) {
         // alert(response.razorpay_payment_id);
